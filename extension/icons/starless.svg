@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Original wanted-star-inspired artwork for Starless. -->
+  <rect x="2" y="2" width="124" height="124" rx="28" fill="#17151f"/>
+  <path d="M64 16 77 44 108 48 85 70 91 102 64 87 37 102 43 70 20 48 51 44Z"
+        fill="#fff8ec"/>
+  <!-- Dark separation keeps the blocking slash clear at small sizes. -->
+  <path d="M28 101 101 28" fill="none" stroke="#17151f" stroke-width="23" stroke-linecap="round"/>
+  <path d="M28 101 101 28" fill="none" stroke="#ff69a6" stroke-width="11" stroke-linecap="round"/>
+</svg>

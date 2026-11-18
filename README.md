@@ -1,5 +1,7 @@
 # Starless
 
+![Starless icon](extension/icons/icon-128.png)
+
 Hide GTA spoilers from your feeds.
 
 - A Chrome extension for Twitch, YouTube, LinkedIn, and X.
