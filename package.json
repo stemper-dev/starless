@@ -1,9 +1,9 @@
 {
-  "name": "anti-gta-6-spoiler-extension",
+  "name": "starless",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A tiny, local-only GTA VI spoiler filter for Chrome.",
+  "description": "Hide GTA spoilers from your feeds.",
   "scripts": {
     "test": "node --test tests/matcher.test.js",
     "test:e2e": "playwright test",

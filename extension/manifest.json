@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "GTA VI Spoiler Shield",
+  "name": "Starless",
   "version": "1.0.0",
-  "description": "Locally hides GTA 6 / GTA VI posts and videos on Twitch, YouTube, LinkedIn and X.",
+  "description": "Hide GTA spoilers from your feeds.",
   "content_scripts": [
     {
       "matches": [
