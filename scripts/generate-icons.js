@@ -11,7 +11,7 @@ try {
   const page = await browser.newPage({ deviceScaleFactor: 1 });
   await mkdir(icons, { recursive: true });
   await page.setContent('<!doctype html><style>html,body{margin:0;background:transparent}svg{display:block;width:100vw;height:100vh}</style>' + svg);
-  for (const size of [16, 32, 48, 128]) {
+  for (const size of [16, 24, 32, 48, 128]) {
     await page.setViewportSize({ width: size, height: size });
     await page.screenshot({ path: fileURLToPath(new URL(`icon-${size}.png`, icons)), omitBackground: true });
   }
