@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "GTA VI Spoiler Shield",
+  "version": "1.0.0",
+  "description": "Locally hides GTA 6 / GTA VI posts and videos on Twitch, YouTube, LinkedIn and X.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.twitch.tv/*",
+        "https://www.youtube.com/*",
+        "https://www.linkedin.com/*",
+        "https://x.com/*",
+        "https://www.x.com/*",
+        "https://twitter.com/*",
+        "https://www.twitter.com/*"
+      ],
+      "css": [
+        "hide.css"
+      ],
+      "js": [
+        "matcher.js",
+        "sites.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

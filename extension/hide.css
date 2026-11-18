@@ -1,0 +1,4 @@
+/* Keep nodes mounted: removing React-owned nodes can break virtualized feeds. */
+[data-gta6-shield-hidden] {
+  display: none !important;
+}
